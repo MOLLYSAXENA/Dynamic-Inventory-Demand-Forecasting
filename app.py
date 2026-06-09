@@ -88,9 +88,9 @@ try:
     # Slice the last 60 days of historical sales context to keep chart focused
     ax.plot(df_history['ds'].tail(60), df_history['y'].tail(60), label='Historical Real Sales', color='black', alpha=0.7, marker='o')
     # Plot upcoming forecast projections derived via XGBoost
-    ax.plot(future_forecast['Target Date'], future_forecast['Expected Units'], label='XGBoost Expected Demand Pathway', color='#2ca02c', linewidth=2.5, linestyle='--')
+    ax.plot(future_forecast['Target Date'], future_forecast['Expected Units'], label='XGBoost Expected Demand Pathway', color='#6a09e8', linewidth=2.5, linestyle='--')
     # Fill background error margins
-    ax.fill_between(future_forecast['Target Date'], future_forecast['Minimum Threshold'], future_forecast['Maximum Peak Threshold'], color='#2ca02c', alpha=0.12, label='Model Boundary (±15%)')
+    ax.fill_between(future_forecast['Target Date'], future_forecast['Minimum Threshold'], future_forecast['Maximum Peak Threshold'], color='#6a09e8', alpha=0.12, label='Model Boundary (±15%)')
     
     ax.set_title("Forward-Looking Production Demand Vector Analytics (Ensemble Mode)", fontsize=12, fontweight='bold')
     ax.set_xlabel("Operational Timeline", fontsize=10)
