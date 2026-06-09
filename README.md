@@ -1,8 +1,8 @@
 # 📊 Walmart Inventory Forecasting Dashboard
 
-### 🔗 Live Project Link: [PASTE_YOUR_STREAMLIT_LIVE_LINK_HERE]
+### 🔗 Live Project Link: [https://dynamic-inventory-demand-forecasting-rbeovu4dbzmr6qruruzpvt.streamlit.app/]
 
-**Developed by:** Molly Saxena (CSE-AIML, Batch of 2027) | Inderprastha Engineering College
+**Developed by:** Molly Saxena (CSE-AIML, Batch of 2027) | Inderprastha Engineering College | AKTU  
 
 ---
 
